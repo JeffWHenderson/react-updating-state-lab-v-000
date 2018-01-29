@@ -5,16 +5,16 @@ class YouTubeDebugger extends React.Component {
   constructor() {
     super()
 
-    this.state = () => {
-       errors: [], 
-       user: null, 
+    this.state = {
+       errors: [],
+       user: null,
        settings: {
-         bitrate: 8, 
-         video: { 
-           resolution: '1080p' 
-         } 
-       } 
-    }  
+         bitrate: 8,
+         video: {
+           resolution: '1080p'
+         }
+       }
+    }
   }
 
   
