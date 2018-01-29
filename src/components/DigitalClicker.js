@@ -1,5 +1,7 @@
 // Code DigitalClicker Component Here
 import React from 'react'
+constructor()
+super()
 
 class DigitalClicker extends React.Component {
 
