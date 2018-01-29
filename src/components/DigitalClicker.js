@@ -3,11 +3,12 @@ import React from 'react'
 
 
 class DigitalClicker extends React.Component {
-  constructor()
+  constructor() {
     super()
     
-  this.state = () => {
-    timesClicked: 0
+    this.state = () => {
+      timesClicked: 0
+    }
   }
 
   handleClick = () => {
