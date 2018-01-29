@@ -16,11 +16,18 @@ class YouTubeDebugger extends React.Component {
        }
     }
   }
+  hanleBitrateClick = () => {
+    console.log("bitrate!")
+  }
 
+  hanleResolutionClick = () => {
+    console.log("resolution!")
+  }
 
   render() {
     return (
-      <p>Hello World</p>
+      <button className="bitrate" onClick={}>Hello World</button>
+      <button className="resolution" onClick={}>Hello World</button>
     )
   }
 }
