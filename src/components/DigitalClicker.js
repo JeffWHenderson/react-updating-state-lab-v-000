@@ -12,7 +12,7 @@ class DigitalClicker extends React.Component {
   }
   render() {
     return (
-      <p>Hello World</p>
+      <button onClick={this.handleClick}>Hello World</button>
     )
   }
 }
